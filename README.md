@@ -58,3 +58,38 @@ Edit
 git add README.md
 git commit -m "Add project README"
 git push
+
+Or run TaskApiApplication.java directly from your IDE.
+
+API Endpoints
+Method	Endpoint	Description
+GET	/api/tasks	Get all tasks
+POST	/api/tasks	Create a new task
+GET	/api/tasks/{id}	Get task by ID
+PUT	/api/tasks/{id}	Update task
+DELETE	/api/tasks/{id}	Delete task
+
+H2 Console
+URL: http://localhost:8080/h2-console
+
+JDBC URL: jdbc:h2:mem:testdb
+
+Username: sa
+
+Password: (leave blank)
+
+License
+This project is open-sourced under the MIT License.
+
+yaml
+Copy
+Edit
+
+---
+
+### ✅ Step 2: Commit the Updated README
+
+```bash
+git add README.md
+git commit -m "Add usage and endpoint info to README"
+git push
