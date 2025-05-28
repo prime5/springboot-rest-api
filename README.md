@@ -87,9 +87,43 @@ Edit
 
 ---
 
-### ✅ Step 2: Commit the Updated README
+# Spring Boot Task API with TestNG Automation
+
+This project is a lightweight Task Management REST API built with Spring Boot and tested using TestNG + RestAssured.
+
+## Features
+
+- ✅ CRUD operations on tasks (`/api/tasks`)
+- 🔐 RESTful status codes (`200`, `201`, `204`, `404`)
+- 🧪 TestNG + RestAssured-based API test suite
+- 💡 Ideal for demonstrating test automation in Java ecosystems
+
+## Run the App
 
 ```bash
-git add README.md
-git commit -m "Add usage and endpoint info to README"
-git push
+./mvnw spring-boot:run
+Run Tests
+bash
+Copy
+Edit
+mvn test
+Folder Structure
+src/main/java/... - Spring Boot REST API
+
+src/test/java/... - TestNG API automation suite
+
+This was built as part of interview preparation targeting QA and SDET roles at enterprise scale (ServiceNow, Palo Alto Networks).
+
+yaml
+Copy
+Edit
+
+---
+
+### 3. 🔁 Push to GitHub
+If remote is already set:
+
+```bash
+git add .
+git commit -m "Add full TestNG API test suite"
+git push origin main
